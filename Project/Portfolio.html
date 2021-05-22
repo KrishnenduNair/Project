@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>Donate Blood</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="images.jpeg">
+	<header>
+	<div class="main">
+        <div class="logo">
+             <img src="Donate-Blood.jpg"></img>
+	    </div>
+    <div class="button">
+    <ul> 
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+        <li class="active"><a href="Portfolio.html">Portfolio</a></li>
+	</ul>
+    </div>
+    <div class="Info">
+        <h2>Information about the Donor:-</h2>
+        <hr colour="red" width="100%"></hr>
+    	<P><label for="name"><font size="7" color="white">Name:</font></label>
+        <input type="text" id="name" placeholder="Enter Name" onInput="check()"/></P>
+<P>
+<label for="name"><font size="7" color="white">Blood Group(select one):</font></label>
+<input type="text" name="display" id="display" value="" list="list-display" />
+<datalist id="list-display">
+ <option>A+</option>
+ <option>A-</option>
+ <option>B+</option>
+ <option>B-</option>
+ <option>O+</option>
+ <option>O-</option>
+ <option>AB+</option>
+ <option>AB-</option>
+</datalist>
+</P>
+<P><label for="name"><font size="7" color="white">Gender:</font></label>
+</P>
+<p>
+<input type="radio" name="gender" value="male"><font size="7" color="white">Male</font><br>
+<input type="radio" name="gender" value="female"><font size="7" color="white">Female</font><br>
+<input type="radio" name="gender" value="other"><font size="7" color="white">Other</font>
+</p>
+<P><label for="name"><font size="7" color="white">Age:</font></label>
+        <input type="text" id="age" placeholder="Enter age" onInput="check()"/></P>
+        <P><label for="name"><font size="7" color="white">Email:</font></label>
+        <input type="text" id="email" placeholder="Enter email" onInput="check()"/></P>
+    <P><label for="name"><font size="7" color="white">Address:</font></label>
+        <input type="text" id="address" placeholder="Enter address" onInput="check()"/></P>
+</div>
+<div class="btn">
+    <a href="Thank you Page.html" class="button">Submit</a>
+</header>
+</body>
+</html>

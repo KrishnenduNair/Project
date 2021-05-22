@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images.jpeg);
+    border-image-width: 1000vh;
+    height: 100vh;
+    background-size: cover; 
+    background-position: right;
+}
+
+#main{
+	background-color: white;
+    align-self: top;
+    width: 90%
+    height: 50px;
+    line-height: 60px;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+    margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: Century Gothic;
+	font-size: 2.85vh;
+	color: red;
+    padding: 3px 20px;
+    border: 1px solid transparent;
+    transition: 0.75s ease;
+}
+ 
+ul li a:hover{
+	background-color: white;
+	color: red;
+}
+
+ul li.active a{
+	background-color: white;
+	color: red;
+}
+
+.logo img{
+	float: left;
+	width: 275px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+	position: absolute;
+	text-align: center;
+    top: 10%;
+    transform: translate(75%, 50%);
+}
+
+.title h1{
+	color: white;
+	font-size: 70px;
+}
+
+.info{
+	position: absolute;
+	text-align: center;
+	top: 10%;
+	transform: translate(10%, 50%);
+	font-size: 4.5vh
+}
+
+ol li.list{
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	transform: translate(38%, 50%);
+	font-size: 5vh
+}
+
+ol li.li{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(50%, 50%);
+	font-size: 5vh
+}
+
+ol li.ul{
+	position: absolute;
+	text-align: center;
+	top: 60%;
+	transform: translate(28%, 50%);
+	font-size: 5vh;
+}
+
+.marquee{
+	scroll-behavior: alternate;
+	font-size: 5vh;
+}
+
+.contact{
+	position: absolute;
+	text-align: center;
+	transform: translate(-10%, 50%);
+	top: 20%;
+    font-size: 8vh;
+}
+
+.Info {
+     position: absolute;
+	top: 50%;
+	transform: translate(10%, -52%);
+}
+
+datalist {
+  position: absolute;
+  background-color: lightgrey;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+option {
+  background-color: #bbb;
+  padding: 4px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.Info h2{
+	color: white;
+	font-size: 70px;
+	transform: translate(10%, -52%);
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 3px 3px 3px 3px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+ }
+
+ .btn {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 6px solid #CCCCCC;
+  border-right: 6px solid #333333;
+  border-bottom: 6px solid #333333;
+  border-left: 6px solid #CCCCCC;
+  position: absolute;
+  transform: translate(1000%, 3000%);
+}
+
+.thanks{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images.jpeg);
+	position: absolute;
+	text-align: center;
+	transform: translate(10%, 50%);
+	top: 0%;
+    font-size: 8vh;
+}
